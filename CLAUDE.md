@@ -42,11 +42,18 @@ Die Kennwortrichtlinie (Schritte 4–6) bleibt drin, weil sonst kurze Kennwörte
 - In .bat-Dateien `%%i` statt `%i` verwenden.
 - Parameter je OU: Ausbildungswerkstatt, Personal, Forschung = `-profile`; IT = `-profile` + `-loscr Software.cmd`;
   Fertigung = kein `-profile`, `-loscr Ersatzteile.bat`.
-- Kennwörter: az/ita/sb/fo/fe + Benutzernummer (az01 …). Offene Frage: Bedeutet „xx“ die Benutzernummer
-  oder die Platznummer? Bei der Lehrkraft klären.
+- Kennwörter: az/ita/sb/fo/fe + Benutzernummer (az01 …). Geklärt: „xx“ = Benutzernummer.
 
-## Nächster Schritt
-Eine korrigierte und erweiterte Fassung als neue Word-Datei erstellen
-(z. B. `Lernfeld 10 - Dokumentation AD (überarbeitet).docx`). Das Original bleibt unverändert.
-Hinweis: Die .doc-Aufgabenstellung ist ein altes Word-Format und muss zum Lesen z. B. mit LibreOffice
-oder Word in .docx konvertiert werden.
+## Vorgaben des Nutzers zur Form
+- Keine Schritt-für-Schritt-Anleitung, sondern knapp.
+- Wiederholende Teile verkürzen: Kontenskript nur am Beispiel Ausbildungswerkstatt,
+  die anderen OUs als Tabelle mit den Abweichungen.
+
+## Stand (29.09.2026)
+`Lernfeld 10 - Dokumentation AD (überarbeitet).docx` ist erstellt (Original unverändert).
+Sie enthält alle Aufgaben: OUs, Kennwortrichtlinie, Freigaben, Anmeldeskripte, Konten, GPOs
+(Profilgröße 512000 KB an RWE, Chrome an IT, Firefox + Herunterfahren an Fertigung), DNS-Zonen,
+Reverse-Lookup und den Domänenbeitritt.
+Erzeugt mit python-docx (Skript lag im Scratchpad, nicht im Repo). Auf diesem PC gibt es weder Word
+noch LibreOffice, deshalb ist das Layout nicht optisch geprüft; die XML-Validierung ist bestanden.
+Hinweis: Die .doc-Aufgabenstellung lässt sich mit `antiword -m UTF-8.txt <datei>` (Git Bash) lesen.
