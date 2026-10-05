@@ -24,6 +24,11 @@ Finale Doku am 05.10.2026 mit dem vom Nutzer gelieferten Text neu erzeugt, schli
 (Nutzerwunsch). Korrigiert: „Profilgröße beschränken“, Option „…max. Profilspeichergröße benachrichtigen“,
 Beispiel-IP .99, Domänenanmeldung KA\BENUTZERNAME statt ./BENUTZERNAME.
 Sicherung davor: „LF10 AD-Doku final - Sicherung vor Vereinfachung.docx“. Offen: X:\ (Doku) vs. C:\ (VM).
+Danach (05.10.2026) hat der Nutzer (Marvin Rosslan) den Text selbst überarbeitet und vorgegeben: Text NICHT ändern,
+nur gestalten. Gestaltet mit Formatvorlagen „Code“ (grauer Kasten, Consolas, keine Rechtschreibprüfung),
+„Menüpfad“, „Hinweis“, Kopf-/Fußzeile mit Seitenzahlen; Text per Wortvergleich identisch geprüft.
+Sicherung davor: „LF10 AD-Doku final - Sicherung vor Gestaltung.docx“.
+„/persistent: no“ in Ersatzteile.bat auf Wunsch des Nutzers zu „/persistent:no“ korrigiert (einzige Textänderung).
 
 ## Ergebnis der Prüfung
 
