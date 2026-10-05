@@ -56,4 +56,14 @@ Sie enthält alle Aufgaben: OUs, Kennwortrichtlinie, Freigaben, Anmeldeskripte, 
 Reverse-Lookup und den Domänenbeitritt.
 Erzeugt mit python-docx (Skript lag im Scratchpad, nicht im Repo). Auf diesem PC gibt es weder Word
 noch LibreOffice, deshalb ist das Layout nicht optisch geprüft; die XML-Validierung ist bestanden.
+
+## Abgleich mit Rudi_Dokumentation_ADS.pdf (05.10.2026)
+Rudis Doku (Domäne klausur.local, Server KServer) deckt sich im Wesentlichen; keine Aufgabe fehlte.
+Übernommen wurden nur sinnvolle Ergänzungen: Hinweis auf `dsquery domainroot` und Reihenfolge der OUs,
+Löschschutz entfernen, Kennwortchronik 0 und maximales Kennwortalter 0, Anmeldeskripte alternativ per GPO,
+Profil-/Home-Pfad alternativ per Mehrfachauswahl mit %username%, Schlüsselwortfilter, 500000 KB als Alternative.
+Nicht übernommen: VM-/Netzwerkvorbereitung, Tests (gpresult, nslookup), EXE-Verteilung per PowerShell,
+SG_IT-Computer und die Verknüpfung der IT-GPO an die Domäne, putty, DNS-Zone „de“.
+Sicherung vor der Änderung: `Lernfeld 10 - Dokumentation AD (überarbeitet) - Sicherung 2026-10-05.docx`.
+
 Hinweis: Die .doc-Aufgabenstellung lässt sich mit `antiword -m UTF-8.txt <datei>` (Git Bash) lesen.
