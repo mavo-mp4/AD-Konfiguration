@@ -19,8 +19,11 @@ Konto „Sachbearbeiter%i“ statt Sachbearbeiter10, Software.bat statt .cmd, Er
 DNS ww.rwe.de fehlt. Korrektur-Befehle wurden im Chat gegeben.
 GPO-Bericht (05.10.2026 20:26) geprüft: alle GPOs korrekt (Default Domain Policy Kennwort, Profilgroesse an RWE
 512000 KB, SoftwareZuweisung an IT mit Chrome, SoftwareUndShutdown an Fertigung mit Firefox + Herunterfahren).
-Offen in der finalen Doku: Name „Profilgröße beschränken“ + Option „Benutzer beim Überschreiten der max.
-Profilspeichergröße benachrichtigen“ (Doku hat noch „begrenzen“), Beispiel-IP .10 statt .99, X:\ statt C:\.
+Finale Doku am 05.10.2026 mit dem vom Nutzer gelieferten Text neu erzeugt, schlicht formatiert (schwarze
+Überschriften, keine Farben/Schattierungen, keine Metadaten). Ergänzt um Anmeldeinfos + „Firewall deaktivieren“
+(Nutzerwunsch). Korrigiert: „Profilgröße beschränken“, Option „…max. Profilspeichergröße benachrichtigen“,
+Beispiel-IP .99, Domänenanmeldung KA\BENUTZERNAME statt ./BENUTZERNAME.
+Sicherung davor: „LF10 AD-Doku final - Sicherung vor Vereinfachung.docx“. Offen: X:\ (Doku) vs. C:\ (VM).
 
 ## Ergebnis der Prüfung
 
