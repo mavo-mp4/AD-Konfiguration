@@ -17,6 +17,10 @@ Software/Ersatzteile liegen auf C:\ (kein X:). Client ist Win11-Client1 (zeitwei
 Fehler in der VM laut Export: UNC-Pfade \\KLAUSUR statt \\KSERVER, Fertigung mit Profilpfad, keine ScriptPaths,
 Konto „Sachbearbeiter%i“ statt Sachbearbeiter10, Software.bat statt .cmd, Ersatzteile.bat verbindet T: statt U:,
 DNS ww.rwe.de fehlt. Korrektur-Befehle wurden im Chat gegeben.
+GPO-Bericht (05.10.2026 20:26) geprüft: alle GPOs korrekt (Default Domain Policy Kennwort, Profilgroesse an RWE
+512000 KB, SoftwareZuweisung an IT mit Chrome, SoftwareUndShutdown an Fertigung mit Firefox + Herunterfahren).
+Offen in der finalen Doku: Name „Profilgröße beschränken“ + Option „Benutzer beim Überschreiten der max.
+Profilspeichergröße benachrichtigen“ (Doku hat noch „begrenzen“), Beispiel-IP .10 statt .99, X:\ statt C:\.
 
 ## Ergebnis der Prüfung
 
