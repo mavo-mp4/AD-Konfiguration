@@ -8,7 +8,15 @@ Die Dokumentation `Lernfeld 10 - Dokumentation AD.docx` wird mit der Aufgabenste
 Wie man dorthin kommt (z. B. AD-DS installieren, DC heraufstufen), Tests und Nachweise sowie
 weitere Aufgaben gehören nicht hinein.
 
-Umgebung laut Doku: Server `KLAUSUR`, Domäne `rwe01.local` (Aufgabe: rweXX.local), Windows-10-Client.
+Umgebung laut Doku (seit 05.10.2026 an die Lab-VM angepasst): Server `KSERVER`, Domäne `klausur.local`
+(`DC=klausur,DC=local`, NetBIOS `KA`), Windows-10-Client. Aufgabe verlangt eigentlich rweXX.local.
+Vorherige Stände gesichert: „… - Sicherung vor KServer.docx“ (KLAUSUR/rwe01.local), „… - Sicherung vor klausur.local.docx“.
+Der Prüfbericht „Lernfeld 10 - AD Prüfung und effizientere Methoden.docx“ nutzt noch KLAUSUR/rwe01.local.
+Echte Lab-VM des Nutzers (Export 05.10.2026): Server KSERVER, Domäne klausur.local (NetBIOS KA), IP 192.168.1.99,
+Software/Ersatzteile liegen auf C:\ (kein X:). Client ist Win11-Client1 (zeitweise Home-Edition → kein Domänenbeitritt).
+Fehler in der VM laut Export: UNC-Pfade \\KLAUSUR statt \\KSERVER, Fertigung mit Profilpfad, keine ScriptPaths,
+Konto „Sachbearbeiter%i“ statt Sachbearbeiter10, Software.bat statt .cmd, Ersatzteile.bat verbindet T: statt U:,
+DNS ww.rwe.de fehlt. Korrektur-Befehle wurden im Chat gegeben.
 
 ## Ergebnis der Prüfung
 
