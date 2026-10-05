@@ -57,6 +57,10 @@ Die Kennwortrichtlinie (Schritte 4–6) bleibt drin, weil sonst kurze Kennwörte
 - Wiederholende Teile verkürzen: Kontenskript nur am Beispiel Ausbildungswerkstatt,
   die anderen OUs als Tabelle mit den Abweichungen.
 
+## Finaler Stand
+**`LF10 AD-Doku final.docx`** ist die finale Fassung (05.10.2026 vom Nutzer so bestätigt; vorher
+„Lernfeld 10 - Dokumentation AD (überarbeitet).docx“, per git mv umbenannt). Sicherungen tragen weiter den alten Namen.
+
 ## Stand (29.09.2026)
 `Lernfeld 10 - Dokumentation AD (überarbeitet).docx` ist erstellt (Original unverändert).
 Sie enthält alle Aufgaben: OUs, Kennwortrichtlinie, Freigaben, Anmeldeskripte, Konten, GPOs
