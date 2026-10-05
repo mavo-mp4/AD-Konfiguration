@@ -66,4 +66,12 @@ Nicht übernommen: VM-/Netzwerkvorbereitung, Tests (gpresult, nslookup), EXE-Ver
 SG_IT-Computer und die Verknüpfung der IT-GPO an die Domäne, putty, DNS-Zone „de“.
 Sicherung vor der Änderung: `Lernfeld 10 - Dokumentation AD (überarbeitet) - Sicherung 2026-10-05.docx`.
 
+## Internet-Prüfung (05.10.2026)
+`Lernfeld 10 - AD Prüfung und effizientere Methoden.docx` enthält: Vollständigkeitstabelle, Korrekturen,
+Methodenvergleich, PowerShell-Variante (Konten aller OUs aus einer Tabelle, GPOs, DNS, Add-Computer), Quellen.
+Ergebnis: alles abgedeckt. In die Doku noch NICHT übernommen:
+- Name korrigieren: „Profilgröße beschränken“; Option „Benutzer beim Überschreiten der max. Profilspeichergröße benachrichtigen“
+- Hinweis: Softwareinstallation evtl. erst bei 2. Anmeldung („Beim Neustart … immer auf das Netzwerk warten“)
+- optional: Home-Ordner-Rechte (icacls mit SIDs), Chrome/Firefox-MSI installieren pro Computer
+
 Hinweis: Die .doc-Aufgabenstellung lässt sich mit `antiword -m UTF-8.txt <datei>` (Git Bash) lesen.
