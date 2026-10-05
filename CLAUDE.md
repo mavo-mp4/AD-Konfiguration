@@ -29,6 +29,11 @@ nur gestalten. Gestaltet mit Formatvorlagen „Code“ (grauer Kasten, Consolas,
 „Menüpfad“, „Hinweis“, Kopf-/Fußzeile mit Seitenzahlen; Text per Wortvergleich identisch geprüft.
 Sicherung davor: „LF10 AD-Doku final - Sicherung vor Gestaltung.docx“.
 „/persistent: no“ in Ersatzteile.bat auf Wunsch des Nutzers zu „/persistent:no“ korrigiert (einzige Textänderung).
+Danach neue Nutzerfassung (Text im Chat) übernommen; ergänzt nur: Kopfzeile der OU-Tabelle in Abschnitt 5 und
+„Beispiel Fertigung (mit Anmeldeskript)“ mit -loscr Ersatzteile.bat. Leere Zeilen → Seitenumbrüche vor 3, 5, 6, 7.
+Sicherung davor: „LF10 AD-Doku final - Sicherung vor Benutzer-Text.docx“.
+Abschnitt 4 auf Wunsch von „Software.bat“ auf „Software.cmd“ zurückgesetzt. Offen (Nutzertext): Abschnitt 2 nennt die
+Default Domain Policy nicht.
 
 ## Ergebnis der Prüfung
 
